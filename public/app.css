@@ -5,6 +5,11 @@ body {
 }
 
 #content {
-    padding: 30%;
+    padding: 30% 0;
     text-align: center;
+}
+
+#disp-info {
+    font-size: 60px;
+    height: 70px;
 }
