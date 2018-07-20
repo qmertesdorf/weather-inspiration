@@ -23,6 +23,6 @@ $(document).ready(function(){
     function showWeather(data){
         console.log(data);
         console.log(`Weather for your location is: ${data.weather[0].description}`);
-        x.innerHTML = `Weather for your location in: ${data.weather[0].description}`;
+        x.innerHTML = `Weather for your location is: ${data.weather[0].description}`;
     }
 })
