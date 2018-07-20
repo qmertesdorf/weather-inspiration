@@ -26,11 +26,24 @@ $(document).ready(function(){
         let img;
         switch (data.weather[0].main) {
             case "Rain":
-                console.log("Rain!");
-                img = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT22R42juDi4Q2pZPAeb-1hSVYo27wn6HjquricAbnuOxhV5_cX"
+                img = "http://www.desktopanimated.com/wp-content/uploads/2013/12/Rain_1.jpg"
                 break;
             case "Clouds":
-                console.log("Clouds!");
+                img = "https://pics.freeartbackgrounds.com/midle/Blue_Cloudy_Sky_Background-1074.jpg"
+                break;
+            case "Thunderstorm":
+                img = "https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/WevYznP/videoblocks-4k-of-spectacular-sky-with-thunderstorms-and-lightnings-in-the-night-storm-clouds-powerful-and-several-lightning-strikes-with-flashes-and-lights-in-thunderstorm-background-of-electrical-storm-dan_hsedo0vgbz_thumbnail-full04.png"
+                break;
+            case "Drizzle":
+                img = "https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/D8qa-2E/moddy-wet-weather-background-raining-city-scenery-sad-rain-drops_hzwjel7r__F0000.png"
+                break;
+            case "Clear":
+                img = "https://wallpapertag.com/wallpaper/full/2/c/d/308641-blue-sky-background-1920x1080-for-android.jpg"
+                break;
+            case "Snow":
+                img = "https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Y2S3rB2/abstract-winter-snowing-background-flake_ny9utacgx__F0000.png"
+                break;
+            case "Atmosphere":
                 img = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQASQIbASOtYSoFfIGhkXvGUu89J3qV87xuWHYOBZa7Cls1oNr9Ww"
                 break;
             default:
