@@ -5,11 +5,29 @@ body {
 }
 
 #content {
-    padding: 30% 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*padding: 30% 0;*/
     text-align: center;
+}
+#get-location-btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    line-height: 40px;
+    width: 213px;
+    font-size: 20px;
+    word-wrap: normal;
 }
 
 #disp-info {
     font-size: 60px;
     height: 70px;
 }
+
+/*@media only screen and (min-width: 576px) {*/
+    
+/*}*/
