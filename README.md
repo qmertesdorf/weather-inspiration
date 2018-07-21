@@ -1,2 +1,2 @@
 # weather-inspiration
-Application that tells the user the weather outside based on their current location.
+Application that gives weather information based on the location of the user.
