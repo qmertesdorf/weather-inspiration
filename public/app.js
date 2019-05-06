@@ -54,7 +54,7 @@ $(document).ready(function() {
         console.log("Unknown weather type!");
     }
     $("body").css("background-image", `url("${img}")`);
-    $(disp).css("font-size", "48px");
+    $(disp).css("font-size", "70px");
     disp.innerHTML = `Weather for ${data.name} is: ${data.weather[0].main.toLowerCase()}`;
   }
 });
